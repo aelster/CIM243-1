@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.bullet_term {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #333;
+}
+.intro_text {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.small_text {	font-size: small;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	background-color: #FFF;
+}
+
+.body_text {	font-size: medium;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.nav_bar {	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+}
