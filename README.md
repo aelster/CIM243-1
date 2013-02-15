@@ -8,3 +8,7 @@ The two folders, cc and tripsmart, are projects from the textboot and are update
 The tag command that I used is:
 
   git tag -a w1 -m "Week #1 Homework"
+
+To post my latest Portfolio Project to my server I use:
+
+  rsync -arv --delete recipes elsterne@elsternet.com:www/
