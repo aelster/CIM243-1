@@ -34,5 +34,15 @@ h3 {
 }
 
 body {
-	background-color: #FFF;
+	background-color: #FCEFDE;
+}
+.img_left_float {
+	float: left;
+	border: thin solid #666;
+	margin-right: 10px;
+}
+.img_float_right {
+	float: right;
+	border: thin solid #666;
+	margin-left: 10px;
 }
