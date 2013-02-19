@@ -27,3 +27,8 @@ h2 {
 .small_text {	font-size: small;
 	font-family: Arial, Helvetica, sans-serif;
 }
+.img_left_float {
+	float: left;
+	margin-right: 10px;
+	border: thin solid #fff;
+}
