@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.nav_bar {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+}
+.body_text {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+}
+.contact_text {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	font-style: italic;
+}
+.recipe_list {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+}
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: x-large;
+	font-weight: bold;
+}
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: large;
+	font-weight: bold;
+}
