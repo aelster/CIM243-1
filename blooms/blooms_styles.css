@@ -13,7 +13,7 @@
 }
 h1 {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
 }
 .small_text {	font-size: small;
@@ -38,4 +38,15 @@ body {
 	float: right;
 	border: thin solid #333;
 	margin-left: 10px;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #030;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #030;
 }
