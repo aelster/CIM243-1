@@ -5,15 +5,28 @@
 <link rel="shortcut icon" href="flower.ico" type="image/x-icon" />
 <title>Blooms &amp; Bulbs - Your Complete Garden Center</title>
 <link href="blooms_styles.css" rel="stylesheet" type="text/css">
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
 <meta name="keywords" content="garden, plants, nursery, flowers, landscape, bulbs, Blooms & Bulbs, Alvin, Texas">
 <meta name="description" content="Blooms &amp; Bulbs is a premier supplier of plants, trees, and shrubs for both professional and home gardeners.">
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 
 <body>
-  <img src="assets/blooms_banner.jpg" width="950" height="120" alt="Blooms &amp; Bulbs banner">
-<br>
-<p class="nav_bar"><a href="index.html">Home</a> - <a href="plants.html">Featured Plants</a> - <a href="tips.html">Garden Tips</a> - <a href="workshops.html">Workshops</a> - <a href="newletter.html">Newsletter</a></p>
-<hr align="left" width="950">
+  <img src="assets/blooms_banner.jpg" width="950" height="120" alt="Blooms &amp; Bulbs banner"><br>
+  <ul id="MenuBar1" class="MenuBarHorizontal">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="newsletter.html">Newsletter</a></li>
+    <li><a href="plants.html" class="MenuBarItemSubmenu">Plants</a>
+      <ul>
+        <li><a href="annuals.html">Annuals</a></li>
+        <li><a href="perennials.html">Perennials</a></li>
+        <li><a href="water_plants.html">Water Plants</a></li>
+      </ul>
+    </li>
+    <li><a href="tips.html">Tips</a></li>
+    <li><a href="workshops.html">Workshops</a></li>
+  </ul>
+<br><br>
 <p class="body_text">Welcome to Blooms &amp; Bulbs. We carry a variety of plants and shrubs along with 
   a large inventory of gardening supplies. Our four greenhouses are full 
   of healthy young plants just waiting to be planted in your yard. We grow an amazing selection of annuals and perennials.  We   also stock a diverse selection of trees, shrubs, tropicals, water plants, and ground covers. Check out our garden  ware for your garden accents or as gifts for your gardening friends. We are happy to deliver or ship your purchases.</p>
@@ -26,7 +39,10 @@
 
 <p class="small_text">Copyright 2001 - 2015<br>
   Last updated on 
-    <!-- #BeginDate format:Am1 -->February 18, 2013<!-- #EndDate -->
+    <!-- #BeginDate format:Am1 -->February 27, 2013<!-- #EndDate -->
 </p>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
 </body>
 </html>

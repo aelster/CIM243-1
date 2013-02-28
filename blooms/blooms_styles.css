@@ -50,3 +50,6 @@ h2 {
 	font-weight: bold;
 	color: #030;
 }
+img {
+	vertical-align: bottom;
+}
