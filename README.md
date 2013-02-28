@@ -12,3 +12,11 @@ The tag command that I used is:
 To post my latest Portfolio Project to my server I use:
 
   rsync -arv --delete recipes elsterne@elsternet.com:www/
+
+I used the following command to implement a global .gitignore:
+
+  $ git config --global core.excludesfile ~/.gitignore
+
+My global .gitignore file now has the following:
+
+   *_notes/
