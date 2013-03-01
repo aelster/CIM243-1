@@ -94,8 +94,11 @@ ul.MenuBarVertical a
 	cursor: pointer;
 	background-color: #23396B;
 	padding: 0.5em 0.75em;
-	color: #DEC7AA;
+	color: #dca;
 	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
 }
 /* Menu items that have mouse over or focus have a blue background and white text */
 ul.MenuBarVertical a:hover, ul.MenuBarVertical a:focus

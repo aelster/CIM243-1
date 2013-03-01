@@ -11,10 +11,35 @@
 <body>
 <img src="assets/ChocChipCookies.jpg" width="950" height="175" alt="Chocolate Chip Cookies"><br>
 <ul id="MenuBar" class="MenuBarVertical">
-  <li><a href="index.html">Home</a>  </li>
-  <li><a href="breakfast.html">Breakfast</a></li>
-  <li><a href="#">Salads</a>  </li>
-  <li><a href="main-dishes.html" class="MenuBarItemSubmenu">Main Dishes</a>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="breakfast.html" class="MenuBarItemSubmenu">Breakfast</a>
+    <ul>
+      <li><a href="campaniles-granola.html">Campanile's Granola</a></li>
+      <li><a href="#">Granola</a></li>
+      <li><a href="#">Oatmeal with Bananas and Goodies</a></li>
+      <li><a href="#">Pumpkin Scones</a></li>
+      <li><a href="#">Shakshuka</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Appetizers</a>
+    <ul>
+      <li><a href="#">Baked Brie with Apricot Jam</a></li>
+      <li><a href="#">Baked Brie</a></li>
+      <li><a href="#">Bruschetta</a></li>
+      <li><a href="#">Easy Corn Relish</a></li>
+      <li><a href="#">Fresh Salsa</a></li>
+      <li><a href="#">Lemon Garlic Hummus</a></li>
+      <li><a href="#">Onion Dip from Scratch</a></li>
+      <li><a href="#">Pear, Leek Gruyere Turnovers</a></li>
+      <li><a href="#">Pickles</a></li>
+      <li><a href="#">Spicy Marinated Mozzarella with Oregano and Capers</a></li>
+      <li><a href="#">Stuffed Endive Spears</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Soups</a></li>
+  <li><a href="#">Salads</a></li>
+  <li><a href="#">Breads</a></li>
+  <li><a href="main-dishes.html" class="MenuBarItemSubmenu">Main Courses</a>
     <ul>
       <li><a href="#">Cheese Enchilada</a></li>
       <li><a href="#">Checkpea Tomato Stew w/ Moroccan Flavors</a></li>
@@ -24,7 +49,17 @@
       <li><a href="#">Eggplant Parmesan</a></li>
     </ul>
   </li>
-  <li><a href="#">Desserts</a></li>
+  <li><a href="#">Side Dishes</a></li>
+  <li><a href="#">Sauces</a></li>
+  <li><a href="#" class="MenuBarItemSubmenu">Desserts</a>
+    <ul>
+      <li><a href="#">Cakes</a></li>
+      <li><a href="#">Cookies</a></li>
+      <li><a href="#">Ice Cream</a></li>
+      <li><a href="#">Other</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Holidays</a></li>
 </ul>
 <ul>
   <li class="recipe_list">Cheese Enchiladas</li>
@@ -35,7 +70,7 @@
   <li class="recipe_list">Eggplant Parmesan</li>
 </ul>
 <script type="text/javascript">
-var MenuBar1 = new Spry.Widget.MenuBar("MenuBar", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
 </script>
 </body>
 </html>
