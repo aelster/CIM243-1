@@ -28,3 +28,6 @@ h2 {
 	font-size: large;
 	font-weight: bold;
 }
+img {
+	vertical-align: bottom;
+}

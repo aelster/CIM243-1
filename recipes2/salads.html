@@ -4,18 +4,37 @@
 <meta charset="UTF-8">
 <title>Elster Kitchen - Salads</title>
 <link href="recipes.css" rel="stylesheet" type="text/css">
+<link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css">
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 
 <body>
-<p><img src="assets/ChocChipCookies.jpg" width="950" height="175" alt="Chocolate Chip Cookies"></p>
-<p class="nav_bar"><a href="index.html">Home</a> - <a href="breakfast.html">Breakfast</a> - <a href="salads.html">Salads</a> - <a href="main-dishes.html">Main Dishes</a> - <a href="desserts.html">Desserts</a></p>
-<hr>
+<img src="assets/ChocChipCookies.jpg" width="950" height="175" alt="Chocolate Chip Cookies"><br>
+<ul id="MenuBar" class="MenuBarVertical">
+  <li><a href="index.html">Home</a>  </li>
+  <li><a href="breakfast.html">Breakfast</a></li>
+  <li><a href="#">Salads</a>  </li>
+  <li><a href="main-dishes.html" class="MenuBarItemSubmenu">Main Dishes</a>
+    <ul>
+      <li><a href="#">Cheese Enchilada</a></li>
+      <li><a href="#">Checkpea Tomato Stew w/ Moroccan Flavors</a></li>
+      <li><a href="#">Chile Relleno Casserole</a></li>
+      <li><a href="#">Corn and Green Chile Tamale Casserole</a></li>
+      <li><a href="corn-chili-cheese.html">Corn, Chile and Cheese Casserole</a></li>
+      <li><a href="#">Eggplant Parmesan</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Desserts</a></li>
+</ul>
+<p class="nav_bar">Corn, Tomato and Bean Salad </p>
 <ul class="recipe_list">
-  <li>Corn, Tomato and Bean Salad </li>
   <li>Eggplan Salad</li>
   <li>Lentil Salad with Tomato and Dill</li>
   <li>Liora's Tomato Cucumber Salad</li>
   <li>Mexican Salad</li>
 </ul>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
 </body>
 </html>
