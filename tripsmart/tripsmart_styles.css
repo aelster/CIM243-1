@@ -26,6 +26,19 @@ h1 {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: small;
 }
+.centered_text {
+	text-align: center;
+}
+.catalog_images {
+	margin: 5px;
+	float: left;
+	border: thin solid #000;
+}
+table {
+	text-align: center;
+	width: 175px;
+	border: thin solid #babd9f;
+}
 .img_left_float {
 	float: left;
 	margin-right: 10px;
@@ -38,4 +51,9 @@ h1 {
 }
 img {
 	vertical-align: bottom;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #54572c;
 }
