@@ -34,10 +34,15 @@
 	font-size: medium;
 	margin-left: 50px;
 }
+.img_left_float {
+	float: left;
+	padding-right: 20px;
+}
 h1 {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: x-large;
 	font-weight: bold;
+	text-align: center;
 }
 h2 {
 	font-family: Verdana, Geneva, sans-serif;
@@ -47,8 +52,14 @@ h2 {
 img {
 	vertical-align: bottom;
 }
+.food_pic {
+	border: thin solid #000;
+}
 .conversion_chart {
 	background-color: #000;
+}
+.recipe_hdr {
+	text-align: center;
 }
 .body_lower {
 	margin-left: 140px;
